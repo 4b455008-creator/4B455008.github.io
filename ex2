@@ -26,7 +26,7 @@
 <h3>探索自己，也持續創造可能</h3>
  </header>
 
-  <nav><h2><i class="fa fa-home" aria-hidden="true"></i>首頁、<a href="aboutmee"><i class="fa fa-info" aria-hidden="true"></i>關於我</a>、<i class="fa fa-camera" aria-hidden="true"></i>作品集、<i class="fa fa-comment" aria-hidden="true"></i>留言、<i class="fa fa-envelope-open" aria-hidden="true"></i>聯絡我</h2></nav>
+  <nav><h2><i class="fa fa-home" aria-hidden="true"></i>首頁、<a href="aboutme.html"><i class="fa fa-info" aria-hidden="true"></i>關於我</a>、<i class="fa fa-camera" aria-hidden="true"></i>作品集、<i class="fa fa-comment" aria-hidden="true"></i>留言、<i class="fa fa-envelope-open" aria-hidden="true"></i>聯絡我</h2></nav>
    
  <aside><h1>側邊欄</h1></aside>
 
