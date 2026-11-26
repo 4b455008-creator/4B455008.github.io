@@ -10,32 +10,49 @@
 
 <style>
 body,h1 {
-  font-family:"Montserrat",sans-serif
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #80664F;
+  font-size: 38px;
+  letter-spacing: 4px;
+}
+
+body {
+  background-color: #F5EFE6;
+  color: #665548;
+  font-family: "Montserrat", sans-serif;
 }
 
 .gallery {
-  column-count:3;
-  column-gap:0;
+  column-count: 3;
+  column-gap: 12px;
 }
 
 .gallery img {
-  display:block;
-  width:100%;
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(90, 70, 50, 0.15);
 }
 
 .gallery-padding {
-  column-gap:12px;
+  column-gap: 20px;
 }
 
 .gallery-padding img {
-  margin-bottom:12px;
+  margin-bottom: 20px;
 }
 
-@media (max-width:600px) {
+
+@media (max-width:900px) {
   .gallery {
-    column-count:1;
+    column-count: 3;
   }
 }
+
+
 </style>
 
 <body>
