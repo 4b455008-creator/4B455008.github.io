@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html>
-<title>My photo</title>
+<title>Hi I am Cho!</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
@@ -11,24 +11,17 @@
 body,html {
   height:100%;
   font-family:"Inconsolata",sans-serif;
-  background-color:#F5EFE6;
-  color:#665548;
 }
 
 .bgimg {
   background-position:center;
   background-size:cover;
   background-image:url("/w3images/coffeehouse.jpg");
-  min-height:85%;
-  filter:sepia(20%);
+  min-height:75%;
 }
 
 .menu {
   display:none;
-  background-color:#EDE1D3;
-  color:#665548;
-  padding:48px;
-  border-radius:12px;
 }
 </style>
 
@@ -37,36 +30,34 @@ body,html {
 <!-- Navigation -->
 
 <div class="w3-top">
-<nav class="w3-flex w3-padding w3-white">
+  <nav class="w3-flex w3-padding w3-brown">
 
-footer a {
-  color:#80664F;
-  text-decoration:none;
-}
-
-footer a:hover {
-  color:#5C4635;
-}
 <a href="#home"
-class="w3-button w3-black"
+class="w3-button w3-brown"
 style="flex:1">
 HOME
 </a>
 
 <a href="#about"
-class="w3-button w3-black"
+class="w3-button w3-brown"
 style="flex:1">
 ABOUT
 </a>
 
-<a href="#menu"
-class="w3-button w3-black"
+<a href="#interests"
+class="w3-button w3-brown"
 style="flex:1">
-MENU
+INTERESTS
+</a>
+
+<a href="#menu"
+class="w3-button w3-brown"
+style="flex:1">
+PORTFOLIO
 </a>
 
 <a href="#where"
-class="w3-button w3-black"
+class="w3-button w3-brown"
 style="flex:1">
 WHERE
 </a>
@@ -80,14 +71,7 @@ WHERE
 
   <div class="w3-display-bottomleft
   w3-center w3-padding-large w3-hide-small">
-    .w3-tag {
-  background-color:#A68B73 !important;
-  color:#FFFFFF !important;
-  padding:10px 20px;
-  border-radius:20px;
-  letter-spacing:2px;
-}
-  </div>
+   
 
   <div class="w3-display-middle w3-center">
     <span class="w3-text-white" style="font-size:90px">
@@ -114,20 +98,12 @@ WHERE
 
   <div class="w3-content" style="max-width:700px">
 
-<h5 class="w3-center w3-padding-64">
-  <span class="w3-tag w3-wide">ABOUT THE CAFE</span>
-</h5>
+<h3 class="w3-center w3-padding-64">
+  <span class="w3-tag w3-wide">ABOUT ME</span>
+</h3>
 
 <p>
-The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
-consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua.
-</p>
 
-<p>
-In addition to our full espresso and brew bar menu, we serve fresh
-made-to-order breakfast and lunch sandwiches, as well as a selection
-of sides and salads and other good stuff.
 </p>
 
 <div class="w3-panel w3-leftbar w3-light-grey">
@@ -145,17 +121,34 @@ of sides and salads and other good stuff.
 
 </div>
 
-<img src="/w3images/coffeeshop.jpg"
-alt="Coffee Shop"
-style="width:100%;margin-top:16px">
+<!-- About -->
 
+<section class="w3-container" id="interests">
+
+  <div class="w3-content" style="max-width:700px">
+
+<h3 class="w3-center w3-padding-64">
+  <span class="w3-tag w3-wide">ABOUT ME</span>
+</h3>
 <p>
-<b>Opening hours:</b> everyday from 6am to 5pm.
+
 </p>
 
-<p>
-<b>Address:</b> 15 Adr street, 5015, NY
-</p>
+<div class="w3-panel w3-leftbar w3-light-blue">
+
+  <p>
+  <i>
+  "Use products from nature for what it's worth - but never too early,
+  nor too late." Fresh is the new sweet.
+  </i>
+  </p>
+
+  <p>
+  Chef, Coffeeist and Owner: Liam white
+  </p>
+
+</div>
+
 
   </div>
 
@@ -167,32 +160,32 @@ style="width:100%;margin-top:16px">
 
   <div class="w3-content" style="max-width:700px">
 
-<h5 class="w3-center w3-padding-48">
-  <span class="w3-tag w3-wide">THE MENU</span>
-</h5>
+<h3 class="w3-center w3-padding-48">
+  <span class="w3-tag w3-wide">My portfolio</span>
+</h3>
 
 <!-- Menu Tabs -->
 <div class="w3-flex w3-card w3-padding">
 
   <a href="javascript:void(0)"
-  onclick="openMenu(event,'Eat')"
+  onclick="openMenu(event,'Work 1')"
   id="myLink"
   class="tablink w3-center"
   style="flex:1">
-  Eat
+  Work 1
   </a>
 
   <a href="javascript:void(0)"
-  onclick="openMenu(event,'Drinks')"
+  onclick="openMenu(event,'Work 2')"
   class="tablink w3-center"
   style="flex:1">
-  Drink
+  Work 2
   </a>
 
 </div>
 
 <!-- Eat -->
-<div id="Eat"
+<div id="Work 1"
 class="w3-container menu w3-padding-48 w3-card">
 
   <h5>Bread Basket</h5>
@@ -232,7 +225,7 @@ class="w3-container menu w3-padding-48 w3-card">
 </div>
 
 <!-- Drinks -->
-<div id="Drinks"
+<div id="Work 2"
 class="w3-container menu w3-padding-48 w3-card">
 
   <h5>Coffee</h5>
@@ -285,77 +278,37 @@ style="padding-bottom:32px">
   <div class="w3-content" style="max-width:700px">
 
 ```
-<h5 class="w3-center w3-padding-48">
+<h3 class="w3-center w3-padding-48">
   <span class="w3-tag w3-wide">
-  WHERE TO FIND US
+  WHERE TO FIND ME
   </span>
-</h5>
+</h3>
 
-<p>
-Find us at some address at some place.
-</p>
+ <div class="w3-grid w3-padding-32"
+style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:32px">
 
-<img src="/w3images/map.jpg"
-alt="Map"
-style="width:100%">
+  <div class="map-box">
 
-<p>
-<span class="w3-tag">FYI!</span>
-We offer full-service catering for any event, large or small.
-We understand your needs and will cater the food to satisfy
-both look and taste.
-</p>
+        
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.339748344313!2d120.20193430000002!3d23.121253600000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e78e31941b4a7%3A0xfc926ce360434cad!2z6KW_5riv5oW25a6J5a6u!5e0!3m2!1szh-TW!2stw!4v1795676492663!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"
+     
 
-<p>
-<b>Reserve</b> a table, ask for today's special,
-or just send us a message:
-</p>
+        <p>
+          <b>Address:</b> 15 Adr street, 5015, NY
+        </p>
 
-<form action="/action_page.php" target="_blank">
+        <p>
+          <b>Phone:</b> +886 09123456788
+        </p>
 
-  <p>
-  <input class="w3-input w3-padding-16 w3-border"
-  type="text"
-  placeholder="Name"
-  required
-  name="Name">
-  </p>
+        <p>
+          <b>Email:</b> mail@mail.com
+        </p>
 
-  <p>
-  <input class="w3-input w3-padding-16 w3-border"
-  type="number"
-  placeholder="How many people"
-  required
-  name="People">
-  </p>
-
-  <p>
-  <input class="w3-input w3-padding-16 w3-border"
-  type="datetime-local"
-  required
-  name="date">
-  </p>
-
-  <p>
-  <input class="w3-input w3-padding-16 w3-border"
-  type="text"
-  placeholder="Message / Special requirements"
-  required
-  name="Message">
-  </p>
-
-  <p>
-  <button class="w3-button w3-black"
-  type="submit">
-  SEND MESSAGE
-  </button>
-  </p>
-
-</form>
-
-  </div>
-
+   
 </section>
+
+
 
 </div>
 
